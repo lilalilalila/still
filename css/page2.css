@@ -183,7 +183,7 @@ h5 {
 	z-index: 9999;
 	
 	width: 100%;
-	padding-top: 100%;
+	padding-top: 200%;
 
 	font-size: 1.4rem;
 
@@ -195,7 +195,7 @@ h5 {
 
 .page2-hidden-font {
 	position: absolute;
-	top: 15%;
+	top: 40px;
 	left: 16%;
 	z-index: 999999;
 	
@@ -204,7 +204,13 @@ h5 {
 	font-size: 1.4rem;
 	font-weight: 700;
 }
-
+@media only screen and (max-width: 1024px) {
+	.page2-hidden-font {
+		top: 20px;
+		
+		font-size: 1.1rem;
+	}
+}
 .page2-hidden-font p {
 	margin-top: 10%;
 	
