@@ -93,7 +93,8 @@ body {
 }
 
 /*轮播图切换控制按钮*/
-.page1-carousel > .left {
+.page1-carousel > .left,
+.page1-carousel > .right {
 	background-image: none;
 }
 
