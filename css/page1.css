@@ -1,0 +1,400 @@
+@import url("page2.css");
+
+
+body {
+	background-color: #fafafa;
+}
+
+.page2-header {
+	padding-left: 0;
+}
+
+/*顶部垂直居中对齐*/
+.vertical-center {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+/*底端对齐*/
+.bottom-alignment {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
+
+/*两端对齐*/
+.between-alignment {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+/*顶部客服图片样式*/
+.header-img {
+	padding-right: 25px;
+}
+
+.header-img img {
+	display: inline;
+	
+	margin-left: 15px;
+	width: 25px;
+	height: 24px;
+}
+
+/*顶端客服电话样式*/
+.header-sevice {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.header-sevice p {
+	margin: 0;
+
+	font-size: 1.2rem;
+	line-height: 2.7rem;
+	
+	color: #29b078;
+}
+
+
+/*导航底部颜色*/
+.header-nav {
+	background-color: #29b078;
+}
+
+/*顶部导航*/
+.nav-margin {
+	margin-bottom: 0; /*取消下端外边距*/
+}
+
+.nav-margin a {
+	color: #ffffff;
+}
+
+
+/*导航点击样式*/
+.nav-margin a:hover {
+	border-bottom: 2px solid #ffffff;
+}
+
+.nav > li > a:hover {
+	background-color: transparent;
+}
+
+/*设置自动显示时的当行第一个样式*/
+.nav-active {
+	border-bottom: 2px solid #FFFFFF;
+}
+
+
+/*轮播图切换控制按钮*/
+.carousel-changebtn {
+	top: 35%;
+	
+	font-size: 50px;
+}
+
+/*主体下部内容背景颜色以及边距*/
+.main-bottom {
+	margin-top: 5%;
+}
+
+/*第一行中间边框*/
+.mainrow1-left {	
+	border-right: 1px dashed #dedede;
+}
+
+/*左侧文字和图片样式*/
+.mainrow1-left h5 {
+	font-weight: 700;	
+}
+
+.mainrow1-left p {
+	font-size: 1.2rem;
+	
+	color: #999999;
+}
+
+/*右侧文字样式*/
+.mainrow1-right {
+	padding-left: 15px;
+	
+	color: #999999;
+}
+
+/*右侧文字的背景图片*/
+.mainrow1-rightcolor {
+	padding-left: 15px;
+	margin-bottom: 0;
+	
+	color: #26a26f;
+	background-image: url(../img/images/技能树首页_25.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 13px 13px;
+	background-size: 13px 13px;
+	background-position: left center;
+}
+
+/*第二行与第一行内容之间的间距*/
+.main-row2 {
+	margin-top: 5%;
+}
+
+/*小标题加粗*/
+.mainrow2-title h5 {
+	font-weight: 700;
+}
+
+/*第二行文字与数字所在块的整体宽度*/
+.mainrow2-width {
+	width: 18%;
+}
+
+/*数字外部圆形的样式*/
+.main-number {
+	position: relative;
+	
+	width: 40px;
+	height: 40px;
+	
+	border: 1px solid #eeeeee;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	-webkit-box-shadow: 0 0 5px #EEEEEE;
+	box-shadow: 0 0 5px #eeeeee;
+}
+
+/*定位数字到圆形中心*/
+.main-number p {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	
+	margin-bottom: 0;
+	margin-top: -9.6px;
+		
+	font-size: 1.4rem;
+	
+	color: #29b078;
+}
+
+/*数字后方文字样式*/
+.mainrow2-font {
+	margin-bottom: 0;
+	padding-left: 6%;
+	width: 80%;
+	
+	font-size: 1.2rem;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	
+	color: #999999; 
+}
+
+.mainrow2-font p {
+	margin: 0;
+}
+
+/*图片格式大小*/
+.mainrow2-img {
+	width: 28px;
+	height: 26px;
+}
+
+/*第二行中的内容上下间距*/
+.mainrow2-margin {
+	margin-top: 3%;
+}
+
+/*第三行标题与轮播之间的距离*/
+.main-row3 {
+	margin-top: 3%;
+}
+
+/*第三行内容*/
+.mainrow3 {
+	float: left;
+	
+	margin-right: 4%;
+	padding: 15px;
+	width: 22%;
+	
+	background-color: #ffffff;
+	-webkit-box-shadow: 0 0 3px #eeeeee;
+	box-shadow: 0 0 3px #eeeeee;
+}
+
+/*第三行文字样式*/
+.mainrow3 p {
+	margin-top: 7%;
+	margin-bottom: 7%;
+	
+	font-size: 1.2rem;
+	
+	color: #999999;
+}
+
+/*改变.active中的diaply:block,从而达到平铺的目的*/
+.carousel-inner > .between-alignment {
+	display: flex;
+}
+
+/*去掉第四个div框的右外边距*/
+.mainrow3-4 {
+	margin-right: 0;
+}
+
+/*取消点击时<a>样式*/
+.main-row3 > .carousel-control: focus,
+.main-row3 > .carousel-control: hover {
+	opacity: 0;
+}
+
+/*改变轮播下方原点的位置以及样式颜色*/
+.main-row3 > .carousel-indicators {
+	bottom: -50px;
+}
+
+.main-row3 li {
+	-webkit-box-shadow: 0 0 1px #999999;
+	box-shadow: 0 0 1px #999999;
+}
+
+.mainrow3-active .active {
+	background-color: #16AF76;
+}
+
+/*企业log内边距*/
+.mainrow4-log {
+	padding-top: 3%;
+	padding-bottom: 3%; 
+	margin-bottom: 5%;
+}
+
+/*中间企业log边框样式*/
+.mainrow4-img {
+	box-shadow: 0 0 2px #999999;
+}
+
+/*脚部上部背景设置*/
+.footer-top {
+	background-color: #ffffff;
+}
+
+/*脚部li样式*/
+.footer-top ul {
+	padding: 0 15px;
+}
+
+.footer-top li {
+	margin-bottom: 0;
+	
+	font-size: 1.2rem;
+	
+	color: #999999;
+}
+
+.footer-li {
+	border-bottom: 1px solid #16AF76;
+}
+
+/*脚步中间内容*/
+.footer-main {
+	position: relative;
+	
+	padding-top: 2%;
+	padding-bottom: 2%;
+	
+	color: #ffffff;
+	background-color: #16AF76;
+}
+
+/*垂直方向两端对齐*/
+.vertical-between {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;/*改变flex作用方向*/
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+/*左侧文字间距*/
+.footer-left {
+	margin-bottom: 20%;
+}
+
+/*文字右侧边框*/
+.right-border {
+	padding-right: 7px;
+	
+	border-right: 1px solid #ffffff;
+}
+
+.footer-main span {
+	margin-right: 3px;
+	
+	font-size: 1.2rem;
+}
+
+/*中间文字样式*/
+.footermain-main p {
+	display: inline-block;
+	
+	margin-top: 4%;
+	margin-right: 10%;
+	
+	font-size: 1.2rem;
+}
+
+.bottom-border {
+	border-bottom: 1px solid #ffffff;
+}
+
+/*右侧*/
+.footer-right {
+	position: relative;
+	right: 0;
+	top: 20px;	
+}
+
+.footer-right p {
+	margin-bottom: 0;
+	
+	font-size: 1.5rem;
+}
+
+.footer-right img {
+	display: block;
+	
+	width: 92px;
+	height: 92px;
+}
+
+/*垂直方向底端对齐*/
+.vertical-bottom {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
+
+.footer-bottom {
+	background-color: #16AF76;
+}
+
+.footer-bottom p {
+	margin-bottom: 0;
+	font-size: 1rem;
+	
+	color: #ffffff;
+}

@@ -1,0 +1,218 @@
+@import url("page1-1.css");
+
+
+h5 {
+	font-weight: 700;
+}
+
+.page2-header {
+	padding-left: 0;
+}
+
+.page2-header p {
+	margin-bottom: 0;
+}
+
+.page2-title {
+	display: inline;
+	
+	margin-right: 10px;
+}
+
+.page2-log {
+	margin: 5% 0;
+	
+	width: 100%;
+}
+@media only screen and (min-width: 1280px) {
+	.page2-log {
+		width: 108px;
+		height: 49px;
+	}
+}
+
+.page2-log-margin {
+	padding-left: 0;
+}
+
+.page2-nav-border {
+	font-size: 1.4rem;
+	
+	border-top: 1px solid #d0d6d9;
+	border-bottom: 1px solid #edf1f2;
+}
+
+.page2-nav-border p {
+	color: #999999;
+}
+
+.page2-nav {
+	padding: 1% 0;
+	
+	border: none;
+}
+
+.page2-nav a {
+	color: #000000;
+}
+
+.page2-nav > li.active > a,
+.page2-nav > li.active > a:focus,
+.page2-nav > li.active > a:hover {
+	color: #ffffff;
+	background-color: #16AF76;
+	border: none;
+	border-radius: 0;
+}
+
+.page2-nav > li {
+	margin-right: 10px;
+}
+
+.page2-nav > li > a {
+	padding: 5px 5px;
+}
+
+.page2-main-content {
+	padding-bottom: 10%;
+}
+
+.page2-occupation-title {
+	border-bottom: 1px solid #b8b8b8; 
+}
+.page2-occupation-title h5 {
+	line-height: 2em;
+}
+
+.page2-occupation-content {
+	margin-top: 5%;
+}
+
+.page2-img {
+	padding: 15px;
+}
+
+.page2-img img {
+	width: 100%;
+}
+@media only screen and (min-width: 2000px) {
+	.page2-img img {
+		width: 139px;
+		height: 139px;
+	}
+}
+
+.page2-occupation {
+	position: relative;
+	
+	float: left;
+	
+	margin-right: 1.33%;
+	margin-bottom: 3%;
+	
+	width: 32%;
+	
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+.page2-occupation > .row {
+	margin-left: 0;
+	margin-right: 0; 
+}
+
+.page2-occupation-top {
+	margin: 0;
+	
+	font-size: 1.2rem;
+	
+	border-left: 1px solid #DDDDDD;
+	border-top: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+
+.page2-occupation-bottom {
+	margin: 0;
+}
+
+.page2-main-table {
+	margin-bottom: 0;
+	
+	font-size: 1.2rem;
+}
+
+.page2-main-table p {
+	display: inline;
+}
+
+/*字体颜色*/
+.page2-orange {
+	margin-left: 5px;
+	margin-right: 10px; 
+	
+	font-size: 1.6rem;
+	
+	color: #ff5c00;
+}
+
+.page2-red {
+	margin-left: 5px;
+	
+	color: #f01400;
+}
+
+.page2-red2 {
+	font-weight: 700;
+}
+.page2-red2 span {
+	color: #F01400;
+}
+
+.page2-gray {
+	color: #b8b8b8;
+}
+
+/*隐藏页*/
+.page2-visited {
+	display: block;
+}
+.page2-hidden {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	
+	width: 100%;
+	padding-top: 100%;
+
+	font-size: 1.4rem;
+
+	color: #ffffff;
+	background-color: rgba(0,0,0,0.8);
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+.page2-hidden-font {
+	position: absolute;
+	top: 15%;
+	left: 16%;
+	z-index: 999999;
+	
+	width: 68%;
+	
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+
+.page2-hidden-font p {
+	margin-top: 10%;
+	
+	text-indent: 2.8rem;
+	line-height: 2.2rem;
+}
+
+/*隐藏页显示*/
+.page2-occupation:hover .page2-hidden {
+	opacity: 1;
+}
