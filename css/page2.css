@@ -204,7 +204,7 @@ h5 {
 	font-size: 1.4rem;
 	font-weight: 700;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1600px) {
 	.page2-hidden-font {
 		top: 20px;
 		
