@@ -92,8 +92,11 @@ body {
 	border-bottom: 2px solid #FFFFFF;
 }
 
-
 /*轮播图切换控制按钮*/
+.page1-carousel > .left {
+	background-image: none;
+}
+
 .carousel-changebtn {
 	top: 35%;
 	

@@ -24,7 +24,7 @@ h5 {
 	
 	width: 100%;
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 700px) {
 	.page2-log {
 		width: 108px;
 		height: 49px;
