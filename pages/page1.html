@@ -16,8 +16,9 @@
 	<body>
 		<header>
 			<div class="container-fluid">
+				<!--大屏幕时显示-->
 				<!--头部客服以及图标-->
-				<div class="row vertical-center">
+				<div class="row vertical-center index-md-visited">
 					<div class="col-md-3 col-md-push-2 text-left header-sevice">
 						<p>客服电话：010-594-78634</p>
 					</div>
@@ -27,21 +28,37 @@
 						<img src="../img/images/技能树首页_07.jpg">	
 					</div>
 				</div>
+				<!--小屏幕时显示-->
+				<div class="row index-xs-visited text-right">
+					<a href="#">登录</a>
+					<span>|</span>
+					<a href="#">注册</a>
+				</div>
 				<!--顶部导航-->
-				<div class="row header-nav vertical-center">
+				<div class="row header-nav">
 					<!--log-->
-					<div class="col-md-2 col-md-push-2 page2-log-margin">
-						<a href="../index.html">
-							<img src="../img/images/images/职位列表_33_03.jpg" class="page2-log"/>
-						</a>
+					<div class="col-md-2 col-md-push-2 col-xs-3 index-log">
+						<img src="../img/images/images/职位列表_33_03.jpg" class="index-md-visited"/>
+						<img src="../img/images/b9a0b9e3-1ce5-4f1a-89a9-0b637909c63f_03 (2).jpg" class="index-xs-visited">
 					</div>
-					<div class="col-md-3 col-md-push-5 navbar nav-margin" role="navigation">
-						<ul class="nav navbar-nav pull-right">
-							<li class="nav-active"><a href="../index.html">首页</a></li>
-							<li><a href="page2.html">职业</a></li>
-							<li><a href="#">推荐</a></li>
-							<li><a href="#">关于</a></li>
-						</ul>
+					<div class="col-md-4 col-md-push-4 col-xs-9 navbar nav-margin" role="navigation">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+								<span class="sr-only">切换导航</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>	
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">IT修真院</a>
+						</div>
+						<div class="collapse navbar-collapse" id="example-navbar-collapse">
+							<ul class="nav navbar-nav pull-right">
+								<li class="nav-active"><a href="#">首页</a></li>
+								<li><a href="pages/page2.html">职业</a></li>
+								<li><a href="pages/page1.html">推荐</a></li>
+								<li><a href="#">关于</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -50,11 +67,11 @@
 			<div class="container-fluid">
 				<!--头图-->
 				<div class="row">
-					<img src="../img/images/战略合作企业_02.jpg" class="page-header-topimg"/>
+					<img src="../img/images/战略合作企业_02.jpg" class="page1-topimg"/>
 				</div>
 				<!--下部主体内容-->
 				<div class="row">
-					<div class="col-md-8 col-md-push-2">
+					<div class="col-md-8 col-md-push-2 col-sm-10 col-sm-push-1 col-xs-12">
 						<div class="row page1-maintitle">
 							<p>首页&gt
 								<span>合作企业</span>
@@ -62,14 +79,14 @@
 						</div>
 						<div class="row">
 							<!--左侧内容-->
-							<div class="col-md-2 page1-leftborder">
+							<div class="col-md-2 col-sm-3 col-xs-12 page1-leftborder">
 								<!--标题-->
 								<div class="row text-center page1-titleborder">
 									<h5>合作企业</h5>
 								</div>
 								<!--下部列表-->
 								<div class="row">
-									<div class="col-md-9 col-md-push-2 page1-mainul">										
+									<div class="col-md-9 col-md-push-2 col-sm-10 col-sm-push-1 col-xs-12 page1-mainul">										
 										<!--结合列表与右侧内容做成标签页-->
 										<ul id="myTab" class="nav nav-tabs page1-mainlist">
 											<li><a href="#alibaba" data-toggle="tab">阿里巴巴</a></li>
@@ -91,14 +108,14 @@
 								</div>
 							</div>
 							<!--右侧页面显示标签页内容-->
-							<div id="myTabContent" class="col-md-9 col-md-push-1 tab-content">
+							<div id="myTabContent" class="col-md-9 col-md-push-1 col-sm-8 col-sm-push-1 col-xs-12 tab-content">
 								<!--土豆网页面-->
 								<div class="tab-pane fade in active" id="tudouwang">
 									<div class="row vertical-center page1-topborder">
-										<div class="col-md-3 text-center">
+										<div class="col-md-3 col-sm-4 col-xs-5 text-center">
 											<img src="../img/images/战略合作企业_05.png" class=" page1-log"/>
 										</div>
-										<div class="col-md-9">
+										<div class="col-md-9 col-sm-8 col-xs-7">
 											<p>土豆网公司成立于1998年11月，是目前中国最大的互联网综合服务提供商之一，也是中国服务用户最多的互联网企业之一，成立10多年以来，腾讯一直秉承一切以用户价值为依据的经营理念，始终处于稳健、高速发展的状态。2004年6月16日，腾讯公司在香港联交所主板公开上市（股票代号700）。</p>
 										</div>
 									</div>
@@ -116,10 +133,10 @@
 								<!--阿里巴巴标签页-->
 								<div class="tab-pane fade page1-font" id="alibaba">
 									<div class="row vertical-center page1-topborder">
-										<div class="col-md-3 text-center">
+										<div class="col-md-3 col-sm-4 col-xs-5 text-center">
 											<img src="../img/images/战略合作企业_05.png" class=" page1-log"/>
 										</div>
-										<div class="col-md-9">
+										<div class="col-md-9 col-sm-8 col-xs-7"> 
 											<p>阿里巴巴公司成立于1998年11月，是目前中国最大的互联网综合服务提供商之一，也是中国服务用户最多的互联网企业之一，成立10多年以来，腾讯一直秉承一切以用户价值为依据的经营理念，始终处于稳健、高速发展的状态。2004年6月16日，腾讯公司在香港联交所主板公开上市（股票代号700）。</p>
 										</div>
 									</div>
@@ -137,10 +154,10 @@
 								<!--腾讯视频标签页-->
 								<div class="tab-pane fade page1-font" id="tengxunshipin">
 									<div class="row vertical-center page1-topborder">
-										<div class="col-md-3 text-center">
+										<div class="col-md-3 col-sm-4 col-xs-5 text-center">
 											<img src="../img/images/战略合作企业_05.png" class=" page1-log"/>
 										</div>
-										<div class="col-md-9">
+										<div class="col-md-9 col-sm-8 col-xs-7">
 											<p>腾讯视频公司成立于1998年11月，是目前中国最大的互联网综合服务提供商之一，也是中国服务用户最多的互联网企业之一，成立10多年以来，腾讯一直秉承一切以用户价值为依据的经营理念，始终处于稳健、高速发展的状态。2004年6月16日，腾讯公司在香港联交所主板公开上市（股票代号700）。</p>
 										</div>
 									</div>
@@ -158,10 +175,10 @@
 								<!--葡萄藤标签页-->
 								<div class="tab-pane fade page1-font" id="beijingputaoteng">
 									<div class="row vertical-center page1-topborder">
-										<div class="col-md-3 text-center">
+										<div class="col-md-3 col-sm-4 col-xs-5 text-center">
 											<img src="../img/images/战略合作企业_05.png" class=" page1-log"/>
 										</div>
-										<div class="col-md-9">
+										<div class="col-md-9 col-sm-8 col-xs-7">
 											<p>北京葡萄藤公司成立于1998年11月，是目前中国最大的互联网综合服务提供商之一，也是中国服务用户最多的互联网企业之一，成立10多年以来，腾讯一直秉承一切以用户价值为依据的经营理念，始终处于稳健、高速发展的状态。2004年6月16日，腾讯公司在香港联交所主板公开上市（股票代号700）。</p>
 										</div>
 									</div>
@@ -185,15 +202,15 @@
 		<footer>
 			<div class="container-fluid">
 				<div class="row footer-top">
-					<div class="col-md-8 col-md-push-2">
+					<div class="col-md-8 col-md-push-2 col-xs-12">
 						<!--脚部标题-->
 						<div class="row mainrow2-title text-center">
 							<h5>友情链接</h5>
 						</div>
 						<!--li链接-->
 						<div class="row">
-							<ul class="between-alignment">
-								<li class="footer-li">手机软件</li>
+							<ul>
+								<li>手机软件</li>
 								<li>教师招聘</li>
 								<li>找工作</li>
 								<li>教师招聘</li>
@@ -206,7 +223,7 @@
 							</ul>
 						</div>
 						<div class="row">
-							<ul class="between-alignment">
+							<ul>
 								<li>手机软件</li>
 								<li>教师招聘</li>
 								<li>找工作</li>
@@ -220,11 +237,10 @@
 							</ul>
 						</div>
 					</div>
-					
 				</div>
 				<div class="row footer-main">
 					<!--左侧内容-->
-					<div class="col-md-2 col-md-push-2">
+					<div class="col-md-2 col-md-push-2 col-xs-12">
 						<div class="row footer-left">
 							<p>技能树——改变你我</p>
 						</div>
@@ -235,8 +251,8 @@
 						</div>
 					</div>
 					<!--中间内容-->
-					<div class="col-md-2 col-md-push-2">
-						<div class="row">
+					<div class="col-md-2 col-md-push-2 col-xs-12">
+						<div class="row index-footer-top">
 							<p>旗下网站</p>
 						</div>
 						<div class="row footermain-main">
@@ -247,7 +263,7 @@
 						</div>
 					</div>
 					<!--右侧二维码内容-->
-					<div class="col-md-1 col-md-push-5">
+					<div class="col-md-1 col-md-push-5 col-xs-12">
 						<div class="row footer-right text-right">
 							<p>微信公众平台</p>
 							<img src="../img/images/技能树首页_66.png" class="pull-right">

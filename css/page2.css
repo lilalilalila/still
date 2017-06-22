@@ -24,7 +24,7 @@ h5 {
 	
 	width: 100%;
 }
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 768px) {
 	.page2-log {
 		width: 108px;
 		height: 49px;
@@ -44,6 +44,22 @@ h5 {
 
 .page2-nav-border p {
 	color: #999999;
+}
+
+@media only screen and (max-width: 768px) {
+	.page2-nav-border {
+		display: block;
+		
+		font-size: 1.1rem;
+	}
+	
+	.page2-header {
+		padding: 10px 15px;
+	}
+	
+	.page2-page {
+		margin: 30px 0;
+	}
 }
 
 .page2-nav {
@@ -84,6 +100,12 @@ h5 {
 	line-height: 2em;
 }
 
+@media only screen and (max-width: 768px) {
+	.page2-occupation-title {
+		padding-left: 15px;
+	}
+}
+
 .page2-occupation-content {
 	margin-top: 5%;
 }
@@ -114,6 +136,21 @@ h5 {
 	
 	background-color: #ffffff;
 	overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+	.page2-occupation {
+		padding-left: 15px;
+		padding-right: 15px;
+		
+		width: 100%;
+		
+		background-color: inherit;
+	}
+	
+	.page2-occupation > .page2-visited > div {
+		background-color: #FFFFFF;
+	}
 }
 
 .page2-occupation > .row {
@@ -195,20 +232,21 @@ h5 {
 
 .page2-hidden-font {
 	position: absolute;
-	top: 40px;
+	top: 8%;
 	left: 16%;
 	z-index: 999999;
 	
 	width: 68%;
 	
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	font-weight: 700;
 }
-@media only screen and (max-width: 1600px) {
+
+@media only screen and (max-width: 768px) {
 	.page2-hidden-font {
-		top: 20px;
+		top: 50px;
 		
-		font-size: 1.1rem;
+		font-size: 1.2rem;
 	}
 }
 .page2-hidden-font p {
