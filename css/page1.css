@@ -143,10 +143,6 @@ body {
 }
 
 /*设置自动显示时的当行第一个样式*/
-.nav-active {
-	border-bottom: 2px solid #FFFFFF;
-}
-
 @media only screen and (max-width: 768px) {
 	.header-nav {
 		padding-top: 15px;
