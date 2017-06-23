@@ -36,7 +36,7 @@ body {
 
 /*顶部客服图片样式*/
 .header-img {
-	padding-right: 25px;
+	padding-right: 40px;
 }
 
 .header-img img {
@@ -106,7 +106,7 @@ body {
 	}
 	
 	.index-log img {
-		margin: 0 10px;
+		padding: 0 15px;
 		
 		width: 86px;
 		height: 33px;
@@ -124,6 +124,7 @@ body {
 
 /*顶部导航*/
 .nav-margin {
+	margin-top: 1.2%;
 	margin-bottom: 0; /*取消下端外边距*/
 }
 
@@ -452,7 +453,7 @@ body {
 .index-study,
 .index-student,
 .index-company {
-	margin-top: 56px;
+	margin-top: 80px;
 }
 
 .index-typical h5,
@@ -464,6 +465,8 @@ body {
 
 /*脚部上部背景设置*/
 .footer-top {
+	margin-top: 80px;
+	
 	background-color: #ffffff;
 }
 
@@ -486,6 +489,11 @@ body {
 	content: '';
 	display: block;
 	clear: both;
+}
+
+.footer-top a {
+	color: #999999;
+	text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
